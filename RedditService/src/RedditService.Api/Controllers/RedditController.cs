@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using RedditService.Api.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -17,7 +18,7 @@ namespace RedditService.Api.Controllers
         public RedditController(ILogger<RedditController> logger, IRedditService redditService)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _redditService ?? throw new ArgumentNullException(nameof(redditService));
+            _redditService = redditService ?? throw new ArgumentNullException(nameof(redditService));
         }
 
         [HttpGet]
