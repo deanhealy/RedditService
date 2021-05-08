@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07DB3EA4-DD38-4E36-A364-0DFE3C773DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{12AF12B1-A458-455E-948A-A292FA103E8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1699C335-2036-40B6-8E78-B21167E7C219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditService.Api", "src\RedditService.Api\RedditService.Api.csproj", "{41B95B32-9A2F-4A77-8742-ACB15CD35C7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditService.Api.Tests", "tests\RedditService.Api.Tests\RedditService.Api.Tests.csproj", "{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41B95B32-9A2F-4A77-8742-ACB15CD35C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B95B32-9A2F-4A77-8742-ACB15CD35C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B95B32-9A2F-4A77-8742-ACB15CD35C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B95B32-9A2F-4A77-8742-ACB15CD35C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1699C335-2036-40B6-8E78-B21167E7C219} = {07DB3EA4-DD38-4E36-A364-0DFE3C773DCC}
+		{41B95B32-9A2F-4A77-8742-ACB15CD35C7A} = {1699C335-2036-40B6-8E78-B21167E7C219}
+		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D} = {12AF12B1-A458-455E-948A-A292FA103E8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99F1B04D-AC86-45B7-8E2B-A05D571C3BF7}
+	EndGlobalSection
+EndGlobal
