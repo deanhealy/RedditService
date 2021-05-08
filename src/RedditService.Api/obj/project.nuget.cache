@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rxcAozp0hmLe7Ht8WBd5IcdIQMe934Gor6oiweQxsbTtp1sj+mAQsBQUnTZYoMtYF6yqV1Yld8fwpXv+VfwqeA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deanh\\Documents\\GitHub\\RedditService\\src\\RedditService.Api\\RedditService.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deanh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\deanh\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\deanh\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\deanh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\deanh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\deanh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
