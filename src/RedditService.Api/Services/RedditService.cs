@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using RedditService.Api.Exceptions;
 using RedditService.Api.Services.Interfaces;
 using System;
@@ -45,7 +46,9 @@ namespace RedditService.Api.Services
             }
 
             _logger.LogInformation("Finish getting json successfully for Subreddit: {subreddit}", subreddit);
-            return json;
+
+            string output = JsonConvert.SerializeObject(json);
+            return output;
         }
 
         private static void CheckUrl(string subreddit)
