@@ -15,7 +15,7 @@ namespace RedditService.Api.Tests
     public class RedditServiceTests
     {
         [Fact]
-        public async void Constructor_GivenNullLogger_ThrowsException()
+        public void Constructor_GivenNullLogger_ThrowsException()
         {
             //Arrange
             var httpClient = new HttpClient();
@@ -28,7 +28,7 @@ namespace RedditService.Api.Tests
         }
 
         [Fact]
-        public async void Constructor_GivenNullHttpClient_ThrowsException()
+        public void Constructor_GivenNullHttpClient_ThrowsException()
         {
             //Arrange
             var mockLogger = new Mock<ILogger<Services.RedditService>>();

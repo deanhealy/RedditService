@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{12AF12B1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1699C335-2036-40B6-8E78-B21167E7C219}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditService.Api", "src\RedditService.Api\RedditService.Api.csproj", "{41B95B32-9A2F-4A77-8742-ACB15CD35C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditService.Api", "src\RedditService.Api\RedditService.Api.csproj", "{41B95B32-9A2F-4A77-8742-ACB15CD35C7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedditService.Api.Tests", "tests\RedditService.Api.Tests\RedditService.Api.Tests.csproj", "{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditService.Api.Tests", "tests\RedditService.Api.Tests\RedditService.Api.Tests.csproj", "{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditService.System.Tests", "tests\RedditService.System.Tests\RedditService.System.Tests.csproj", "{484E965A-9AEE-4EB4-ADA9-378042894BE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{484E965A-9AEE-4EB4-ADA9-378042894BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484E965A-9AEE-4EB4-ADA9-378042894BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484E965A-9AEE-4EB4-ADA9-378042894BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484E965A-9AEE-4EB4-ADA9-378042894BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 		{1699C335-2036-40B6-8E78-B21167E7C219} = {07DB3EA4-DD38-4E36-A364-0DFE3C773DCC}
 		{41B95B32-9A2F-4A77-8742-ACB15CD35C7A} = {1699C335-2036-40B6-8E78-B21167E7C219}
 		{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D} = {12AF12B1-A458-455E-948A-A292FA103E8C}
+		{484E965A-9AEE-4EB4-ADA9-378042894BE1} = {12AF12B1-A458-455E-948A-A292FA103E8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99F1B04D-AC86-45B7-8E2B-A05D571C3BF7}
