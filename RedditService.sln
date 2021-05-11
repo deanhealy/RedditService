@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditService.Api", "src\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditService.Api.Tests", "tests\RedditService.Api.Tests\RedditService.Api.Tests.csproj", "{BAA849BF-4586-41F3-9F7C-DB996A5C6A4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditService.System.Tests", "tests\RedditService.System.Tests\RedditService.System.Tests.csproj", "{484E965A-9AEE-4EB4-ADA9-378042894BE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditService.Integration.Tests", "tests\RedditService.System.Tests\RedditService.Integration.Tests.csproj", "{484E965A-9AEE-4EB4-ADA9-378042894BE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,9 +5,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace RedditService.System.Tests
+namespace RedditService.Integration.Tests
 {
-    [Trait ("Category", "System")]
+    [Trait ("Category", "Integration")]
     public class RedditServiceTests
     {
         private readonly HttpClient _httpClient;
